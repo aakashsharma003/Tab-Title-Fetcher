@@ -1,0 +1,47 @@
+/* popup.css */
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  padding: 10px;
+  background: linear-gradient(
+    to bottom,
+    #f0f0f0,
+    #e0e0e0
+  ); /* Subtle background gradient */
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50; /* Maintain green for consistency */
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Increase button width for better appearance */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect animation */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darken green on hover */
+  transform: translateY(-1px); /* Add slight vertical movement on hover */
+}
+
+#title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
